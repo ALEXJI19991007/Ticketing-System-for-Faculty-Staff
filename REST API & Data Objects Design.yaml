@@ -363,7 +363,7 @@ components:
             format: uuid
         status:
           type: string
-          enum: [Created, Assigned, Started, Blocked, Resolved]
+          enum: [Created, Assigned, Started, Blocked, AwaitingResponse, Resolved]
         comment:
           type: string
           example: "No comment."
